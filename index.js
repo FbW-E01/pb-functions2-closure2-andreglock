@@ -1,4 +1,4 @@
-/* var fullname = 'John Doe';
+var fullname = 'John Doe';
 var obj = {
    fullname: 'Colin Ihrig',
    prop: {
@@ -13,13 +13,13 @@ console.log(obj.prop.getFullname());
 
 var test = obj.prop.getFullname; 
 
-console.log(test());*/
+console.log(test());
 
-var a = 1; 
+/* var a = 1; 
 function b() { 
     a = 10; 
     return; 
     function a() {} 
 } 
 b(); 
-console.log(a);  
+console.log(a);   */

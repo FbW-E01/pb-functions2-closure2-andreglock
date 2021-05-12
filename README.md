@@ -54,7 +54,7 @@ _This code returns 5 because the value of a is defined as 5 with closure._
   
   console.log(test());
   ```
-_I don't know why the method doesn't work when it is called the second time. Maybe it has to do with unbinding._
+_On line 53 getFullname should be called with () because is a method. If getFullname() is defined the () on line 55 are not required._
 
 4. What will you see in the console for the following example?
   ```
